@@ -1606,9 +1606,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"https://raw.githubusercontent.com/thepropertyagency/FH-Half_page_300x600/gh-pages/images/IMG01jpgcopy.jpg", id:"IMG01jpgcopy"},
-		{src:"https://raw.githubusercontent.com/thepropertyagency/FH-Half_page_300x600/gh-pages/images/IMG02jpgcopy.jpg", id:"IMG02jpgcopy"},
-		{src:"https://raw.githubusercontent.com/thepropertyagency/FH-Half_page_300x600/gh-pages/images/IMG03.jpg", id:"IMG03"}
+		{src:"https://raw.githubusercontent.com/thepropertyagency/FH-Wide_skyscraper160x600/gh-pages/Orange/images/IMG01jpgcopy.jpg", id:"IMG01jpgcopy"},
+		{src:"https://raw.githubusercontent.com/thepropertyagency/FH-Wide_skyscraper160x600/gh-pages/Orange/images/IMG02jpgcopy.jpg", id:"IMG02jpgcopy"},
+		{src:"https://raw.githubusercontent.com/thepropertyagency/FH-Wide_skyscraper160x600/gh-pages/Orange/images/IMG03.jpg", id:"IMG03"}
 	],
 	preloads: []
 };
