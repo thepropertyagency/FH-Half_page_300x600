@@ -127,6 +127,21 @@ p.nominalBounds = new cjs.Rectangle(-250,-278,500,556);
 p.nominalBounds = new cjs.Rectangle(-250,-278,500,556);
 
 
+(lib.Symbol15 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#323232").s().p("AxzWvMAAAgtdMAjnAAAMAAAAtdg");
+	this.shape.setTransform(0,0.025);
+	this.shape._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(3).to({_off:false},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-114,-145.4,228,290.9);
+
+
 (lib.Symbol13 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -853,6 +868,25 @@ p.nominalBounds = new cjs.Rectangle(-250,-278,500,556);
 // stage content:
 (lib.FHhalf_page_300x600 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{lineout:72,"lineout":170,"lineout":268});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.btn1.on("click", function () {
+		  window.open(window.clickTag, '_blank')
+		          });
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(285));
+
+	// Layer_2
+	this.btn1 = new lib.Symbol15();
+	this.btn1.name = "btn1";
+	this.btn1.parent = this;
+	this.btn1.setTransform(150,299.95,1.3158,2.0622);
+	new cjs.ButtonHelper(this.btn1, 0, 1, 2, false, new lib.Symbol15(), 3);
+
+	this.timeline.addTween(cjs.Tween.get(this.btn1).wait(285));
 
 	// trace_idn
 	this.shape = new cjs.Shape();
